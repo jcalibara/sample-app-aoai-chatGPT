@@ -10,7 +10,7 @@ export const ShareButton: React.FC<ShareButtonProps> = ({onClick}) => {
           width: 86,
           height: 32,
           borderRadius: 4,
-          background: 'radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)',
+          background: 'radial-gradient(109.81% 107.82% at 100.1% 90.19%, #a048cc 33.63%, #c95aff 70.31%, #b35aff 100%)',
         //   position: 'absolute',
         //   right: 20,
           padding: '5px 12px',
@@ -20,7 +20,7 @@ export const ShareButton: React.FC<ShareButtonProps> = ({onClick}) => {
           color: '#FFFFFF',
         },
         rootHovered: {
-          background: 'linear-gradient(135deg, #0F6CBD 0%, #2D87C3 51.04%, #8DDDD8 100%)',
+          background: 'linear-gradient(135deg, #a048cc 0%, #c95aff 51.04%, #b35aff 100%)',
         },
         label: {
           fontWeight: 600,
